@@ -5,6 +5,13 @@ body{
     color: #f5f0e6;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body.home{
+    background-color: #2e1a47;
 }
 
 .navbar{
@@ -33,21 +40,37 @@ body{
 }
 
 .hero{
-    max-width: 600px;
-    margin: 60px auto;
-    padding: 0 20px;
-    text-align: center;
+    margin: 60px 0;
+}
+
+.hero-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    flex: 1;
+    min-width: 260px;
+    text-align: left;
 }
 
 .hero-image{
-    height: 220px;
-    border: 2px dashed #ff7518;
-    border-radius: 8px;
+    flex: 1;
+    min-width: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ff7518;
-    margin-bottom: 30px;
+}
+
+.hero-image img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1{
@@ -129,7 +152,8 @@ body{
 
 footer{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #000000;
     color: #ff7518;
+    margin-top: auto;
 }
