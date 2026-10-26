@@ -1,0 +1,135 @@
+body{
+    position: relative;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f5f0e6;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px 30px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff7518;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #ff7518;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.hero-image{
+    height: 220px;
+    border: 2px dashed #ff7518;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff7518;
+    margin-bottom: 30px;
+}
+
+.hero h1{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.main-button{
+    display: inline-block;
+    background-color: #ff7518;
+    color: #000000;
+    font-weight: bold;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-button:hover{
+    background-color: #ff8c3a;
+}
+
+.page-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.book-grid{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.book-card{
+    background-color: #2e1a47;
+    border: 2px solid #ff7518;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.book-cover{
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.book-card h2{
+    margin: 5px 0 0;
+}
+
+.author{
+    font-style: italic;
+    color: #cfc7bb;
+    margin: 5px 0;
+}
+
+.stars{
+    color: #ff7518;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.blurb{
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ff7518;
+}
