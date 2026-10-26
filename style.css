@@ -60,15 +60,20 @@ body.home{
 }
 
 .hero-image{
-    flex: 1;
-    min-width: 260px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
 }
 
-.hero-image img{
-    max-width: 320px;
+.hero-top-row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-img{
+    max-width: 200px;
     width: 100%;
     height: auto;
 }
